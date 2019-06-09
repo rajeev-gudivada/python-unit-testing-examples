@@ -1,4 +1,7 @@
 class Role:
+    def __init__(self, name):
+        self.name = name
+
     @property
     def arn(self):
-        pass
+        return f'arn:aws:iam::123456789:role/{self.name}'
