@@ -25,7 +25,7 @@ pip install -e .
 
 # Run Test Suite
 
-This repo's goal is to demonstrate testing in Python, so the first thing would be to run the test suite. To do so, run this command:
+This repo's goal is to demonstrate testing in Python, so the first thing would be to run the test suite. To do so, run this command from the `project directory`:
 
 ```
 py.test
